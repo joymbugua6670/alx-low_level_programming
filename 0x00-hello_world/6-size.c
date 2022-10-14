@@ -1,3 +1,19 @@
+<<<<<<< HEAD
+#incude < stdio.h >
+/**
+ * main - Entry
+ * Return: 0
+ */
+int main(void)
+{
+	printf("Size of a char: %i byte(s)\n", sizeof(char));
+	 printf("Size of a int: %i byte(s)\n", sizeof(int));
+	  printf("Size of a long int: %i byte(s)\n", sizeof(long int));
+	   printf("Size of a long long int: %i byte(s)\n", sizeof(long long int));
+	    printf("Size of a float: %i byte(s)\n", sizeof(float));
+	return (0);
+}
+=======
 #include <stdio.h>
 /**
  * main - C program that prints the size of various types on the computer
@@ -21,3 +37,4 @@ int main(void)
 }
  
 
+>>>>>>> 078a4ccb1578fddbd26e8d93cb0a26c7f7d1b87b
