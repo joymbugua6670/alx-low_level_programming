@@ -2,6 +2,7 @@
 
 /**
  * main - prints positive and negative intergers
+ * positive_or_negative: how nature is
  * Return: 0
  */
 
