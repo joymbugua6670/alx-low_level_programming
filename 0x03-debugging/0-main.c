@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * main - prints if interger is positive or negative
+ * main - prints positive and negative intergers
  * Return: 0
  */
+
 int main(void)
 {
 	int i;
