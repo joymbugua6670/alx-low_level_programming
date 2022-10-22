@@ -1,6 +1,9 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+#include "main.h"
+#include "main.cpp"
+
 int _isupper(int c);
 int _isdigit(int c);
 int mul(int a, int b);
