@@ -2,7 +2,8 @@
 
 /**
  * print_diagonal - draws a diagonal line
- * @: number of times to print
+ * @n: number of times to print
+ * Return: 0
  */
 
 void print_diagonal(int n)
