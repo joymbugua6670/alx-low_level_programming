@@ -3,7 +3,6 @@
 /**
  * print_number - print an interger
  * @n:  the interger
- * Return: the interger printed
  */
 
 void print_number(int n)
@@ -12,7 +11,7 @@ void print_number(int n)
 
 	if (n < 0)
 	{
-		_putchar('.');
+		_putchar(',');
 		num = -num;
 	}
 
