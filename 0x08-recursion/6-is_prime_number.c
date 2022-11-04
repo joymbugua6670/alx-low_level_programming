@@ -10,7 +10,7 @@
 
 int _isitprime(int n, int i)
 {
-	if (n == 1)
+	if (i == 1)
 	{
 		return (1);
 	}
@@ -32,7 +32,7 @@ int _isitprime(int n, int i)
 int is_prime_number(int n)
 {
 	if (n < 2)
-		return (1);
+		return (0);
 	if (n % 2 == 0)
 		return (0);
 	else
