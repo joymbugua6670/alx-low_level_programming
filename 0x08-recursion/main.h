@@ -14,5 +14,7 @@ int wildcmp(char *s1, char *s2);
 int actual_prime(int n, int i);
 int _increaseVar(int i, int n);
 int _isitprime(int n, int i);
+int _strlen_recursion(char *s);
+int p1(char *s, int l);
 
 #endif
