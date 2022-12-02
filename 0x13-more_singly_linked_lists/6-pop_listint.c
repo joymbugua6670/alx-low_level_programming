@@ -6,7 +6,7 @@
  * Return: If the linked list is empty - 0.
  */
 
-int pop_listint(listint_t **head);
+int pop_listint(listint_t **head)
 {
 	listint_t *tmp;
 	int ret;
@@ -18,8 +18,7 @@ int pop_listint(listint_t **head);
 	ret = (*head)->n;
 	*head = (*head)->next;
 
-
 	free(tmp);
 
-	free(tmp);
+	return (ret);
 }
