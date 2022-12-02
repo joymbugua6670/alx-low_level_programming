@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * insert_nodeint_at_index
+ * insert_nodeint_at_index - isan index
  * @head: A pointer to the address of the
  * @idx: The index of the listint_t list where the new
  * @n: The integer for the new node to contain.
