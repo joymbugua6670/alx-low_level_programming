@@ -1,1 +1,1 @@
-the libraries the readme
+The dynamic libraries
